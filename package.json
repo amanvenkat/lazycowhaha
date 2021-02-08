@@ -12,7 +12,11 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node memer.js"
+    "start": "node memer.js",
+    },
+    "engines": {
+      "node": "5.0.0",
+      "npm": "4.6.1"
   },
   "author": "Aman V",
   "license": "ISC"
