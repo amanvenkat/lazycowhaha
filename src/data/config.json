@@ -1,0 +1,7 @@
+{
+    "coin": "https://cdn.discordapp.com/emojis/498508040346271744.png?v=1",
+    "mongoPath": "mongodb://localhost:27017",
+    "prefixes": ["do", "<@botid>", "<@!botid>"],
+    "support": "803943928381440030",
+    "token": "ODA4MzUwMTMwMzUyNTU0MDA0.YCFQuQ.8cnDjOyY4YkmwlZNWJ9p-dZ7IRM"
+}

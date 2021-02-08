@@ -1,0 +1,18 @@
+{
+  "name": "dank-memer-ripoff-main",
+  "version": "1.0.0",
+  "description": "I modified **OLD** Dank Memers publicly available src-code, lol (and made it even worse lmaooo)",
+  "main": "memer.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-light": "^3.5.2",
+    "mongodb": "^4.0.0-beta.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aman V",
+  "license": "ISC"
+}
