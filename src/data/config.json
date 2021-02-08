@@ -1,6 +1,5 @@
 {
     "coin": "https://cdn.discordapp.com/emojis/498508040346271744.png?v=1",
-    "mongoPath": "mongodb://localhost:27017",
     "prefixes": ["do", "<@botid>", "<@!botid>"],
     "support": "803943928381440030"
 }
