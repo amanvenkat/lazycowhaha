@@ -8,7 +8,7 @@ const mong = require('mongoose');
 const config = require('./src/data/config.json');
 const util = require('./src/data/util.js');
 /** database */
-mong.connect(`mongodb://localhost:27017/admin`, {
+mong.connect(`process.env.PORT`, {
     useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true
