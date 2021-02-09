@@ -49,7 +49,7 @@ const memer = new discord.Client({
         'VOICE_SERVER_UPDATE'
     ]
 });
-memer.login(config.token);
+memer.login(process.env.token);
 /** commands */
 memer.commands = new discord.Collection();
 /** load cmds */
@@ -113,4 +113,3 @@ memer.on('message', async message => {
     }
 
 });
-client.login(process.env.TOKEN);
