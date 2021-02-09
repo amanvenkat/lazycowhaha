@@ -5,11 +5,11 @@ const mong = require('mongoose');
 const config = require('./src/data/config.json');
 const util = require('./src/data/util.js');
 /** database */
-mong.connect(process.env.PORT) = {
+mong.connect(process.env.PORT), {
     useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true
-}.then(() => console.log(process.env.PORT));
+}.then(() => console.log('connected db'));
 /** actual bot login things etc */
 const discord = require('discord.js-light');
 const memer = new discord.Client({
