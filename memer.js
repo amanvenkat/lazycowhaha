@@ -5,7 +5,7 @@ const mong = require('mongoose');
 const config = require('./src/data/config.json');
 const util = require('./src/data/util.js');
 /** database */
-mong.connect(`mongodb+srv://aman_21:Aman1970@cluster0.xaqp2.mongodb.net/amanbro?retryWrites=true&w=majority`, {
+mong.connect(process.env.PORT), {
     useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -49,7 +49,7 @@ const memer = new discord.Client({
         'VOICE_SERVER_UPDATE'
     ]
 });
-memer.login(process.env.token);
+memer.login(config.token);
 /** commands */
 memer.commands = new discord.Collection();
 /** load cmds */
@@ -60,7 +60,7 @@ for (const file of commandsInDir) {
 }
 /** bot events */
 memer.once('ready', () => {
-    console.log('dank memer ripoff is ready');
+    console.log('Medu Wada is ready');
     /** clear old command cooldowns */
     setInterval(async () => {
         await util.delCDs();
@@ -113,3 +113,4 @@ memer.on('message', async message => {
     }
 
 });
+
