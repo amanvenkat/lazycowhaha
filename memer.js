@@ -1,6 +1,7 @@
 /** packages */
 const fs = require('fs');
 const mong = require('mongoose');
+var port = process.env.PORT || 8080;
 /** config n util n models */
 const config = require('./src/data/config.json');
 const util = require('./src/data/util.js');
