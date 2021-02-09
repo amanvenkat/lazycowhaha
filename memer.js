@@ -5,7 +5,7 @@ const mong = require('mongoose');
 const config = require('./src/data/config.json');
 const util = require('./src/data/util.js');
 /** database */
-mong.connect(`mongodb://${config.mongodb.user}:${config.mongodb.pwd}@localhost:27017/admin`, {
+mong.connect(`mongodb+srv://aman_21:Aman1970@cluster0.xaqp2.mongodb.net/amanbro?retryWrites=true&w=majority`, {
     useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true
